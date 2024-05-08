@@ -1,4 +1,3 @@
-
 package com.mycompany.company.system;
 
 
@@ -9,14 +8,14 @@ public class Address {
     public String streetNo;
     public String postalCode;
 
-    public Address(String city, String state, String streetNo, String postalCode) {
+public Address(String city, String state, String streetNo, String postalCode) {
         this.city = city;
         this.state = state;
         this.streetNo = streetNo;
         this.postalCode = postalCode;
     }
-    
-    public String getStreetNo() {
+
+public String getStreetNo() {
         return this.streetNo;
     }
     
@@ -27,9 +26,7 @@ public class Address {
     public String getState() {
         return this.state;
     }
-    
-    @Override
+   @Override
     public String toString() {
         return "Address{" + "city=" + city + ", state=" + state + ", streetNo=" + streetNo + ", postalCode=" + postalCode + '}';
-    }
-}
+    }  
